@@ -3,6 +3,7 @@
 ###
 
 makePlot3 <- function(writePNG = FALSE, legendBty = 'o', legendCex = 1) {
+  # source plot1.R to read in the data file
   source("plot1.R")
 
   if (writePNG) png(filename='plot3.png', width=480, height=480)
