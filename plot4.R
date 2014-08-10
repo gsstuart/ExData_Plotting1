@@ -4,7 +4,7 @@
 
 makePlot4 <- function(writePNG = FALSE) {
 
-  # source plot1.R to read in the data file
+# source plot1.R to read in the data file
 source("plot1.R")
 
 # source plot{2,3}.R to plot the first two, since they are variants of them
